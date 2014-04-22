@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F8E7F7F-1F6E-48DA-A68C-FBB03C5547B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Expresso</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</key>
+		<string>https://github.com/ComunidadeExpresso/expressomobile-ios.git</string>
+		<key>CCD93A42-641D-4AAC-8629-AB47AF612522</key>
+		<string>https://github.com/ComunidadeExpresso/expressomobile-www.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Expresso.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</key>
+		<string>../..</string>
+		<key>CCD93A42-641D-4AAC-8629-AB47AF612522</key>
+		<string>../../../expressomobile-www</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ComunidadeExpresso/expressomobile-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>expressomobile-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCD93A42-641D-4AAC-8629-AB47AF612522</string>
+			<key>IDESourceControlWCCName</key>
+			<string>expressomobile-www</string>
+		</dict>
+	</array>
+</dict>
+</plist>
