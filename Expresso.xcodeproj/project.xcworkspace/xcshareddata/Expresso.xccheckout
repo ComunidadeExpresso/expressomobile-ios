@@ -10,33 +10,33 @@
 	<string>Expresso</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</key>
+		<key>C4FFA2963977A361758FE37F34A501E873371939</key>
 		<string>https://github.com/ComunidadeExpresso/expressomobile-ios.git</string>
-		<key>CCD93A42-641D-4AAC-8629-AB47AF612522</key>
+		<key>D2BF8F1CB714168C86A1F406FAD67EBCC0B86E87</key>
 		<string>https://github.com/ComunidadeExpresso/expressomobile-www.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Expresso.xcodeproj/project.xcworkspace</string>
+	<string>Expresso.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</key>
+		<key>C4FFA2963977A361758FE37F34A501E873371939</key>
 		<string>../..</string>
-		<key>CCD93A42-641D-4AAC-8629-AB47AF612522</key>
-		<string>../../../expressomobile-www</string>
+		<key>D2BF8F1CB714168C86A1F406FAD67EBCC0B86E87</key>
+		<string>../..www</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ComunidadeExpresso/expressomobile-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</string>
+	<string>C4FFA2963977A361758FE37F34A501E873371939</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8359809A-DA52-45EA-9DDA-F9F8F6C8DB9D</string>
+			<string>C4FFA2963977A361758FE37F34A501E873371939</string>
 			<key>IDESourceControlWCCName</key>
 			<string>expressomobile-ios</string>
 		</dict>
@@ -44,9 +44,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CCD93A42-641D-4AAC-8629-AB47AF612522</string>
+			<string>D2BF8F1CB714168C86A1F406FAD67EBCC0B86E87</string>
 			<key>IDESourceControlWCCName</key>
-			<string>expressomobile-www</string>
+			<string>expressomobile-ioswww</string>
 		</dict>
 	</array>
 </dict>
