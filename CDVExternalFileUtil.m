@@ -51,7 +51,6 @@
         
         NSArray *parts = [path componentsSeparatedByString:@"="];
         NSString *previewDocumentFileName = [parts lastObject];
-        //NSLog(@"The file name is %@", previewDocumentFileName);
         
 //        NSData *fileRemote = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:path]];
         
@@ -74,13 +73,11 @@
             
             docController = [UIDocumentInteractionController interactionControllerWithURL:fileURL];
             docController.delegate = self;
-            //docController.UTI = uti;
-            
-            //CGRect rect = CGRectMake(0, 0, 1500.0f, 50.0f);
-            //CGRect rect = CGRectMake(0, 0, 1000.0f, 150.0f);
+
             CGRect rect = CGRectMake(cont.view.bounds.size.width / 2.0f, cont.view.bounds.size.height / 2.0f,0,0);
             CDVPluginResult* pluginResult = nil;
             BOOL wasOpened = [docController presentOpenInMenuFromRect:rect inView:cont.view animated:YES];
+            
             //BOOL wasOpened = [docController presentOpenInMenuFromRect:cont.view.frame inView:cont.view animated:YES];
             
             if(wasOpened) {
@@ -98,13 +95,16 @@
 
 - (void) documentInteractionControllerDidDismissOpenInMenu:(UIDocumentInteractionController *)controller {
     //NSLog(@"documentInteractionControllerDidDismissOpenInMenu");
-    [self cleanupTempFile:controller];
 }
 
-- (void) documentInteractionController: (UIDocumentInteractionController *) controller didEndSendingToApplication: (NSString *) application {
+
+- (void)documentInteractionController:(UIDocumentInteractionController *)controller
+           didEndSendingToApplication:(NSString *)application
+{
     //NSLog(@"didEndSendingToApplication: %@", application);
-    [self cleanupTempFile:controller];
+    //[self cleanupTempFile:controller];
 }
+
 
 - (void) cleanupTempFile: (UIDocumentInteractionController *) controller
 {
