@@ -50,25 +50,8 @@
         // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
         // Uncomment to override the CDVCommandQueue used
         // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
-        
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide) name:UIKeyboardWillHideNotification object:nil];
     }
     return self;
-}
-
-- (void) keyboardWillHide {
-    
-    
-    
-    CGPoint top = CGPointMake(0, 27);
-    [self.webView.scrollView setContentOffset:top animated:YES];
-    
-
-    //self.webView.scrollView
-//    UIAlertView * alert =[[UIAlertView alloc ] initWithTitle:@"Username" message:@"Enter your username" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles: nil];
-//    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
-//    [alert addButtonWithTitle:@"Login"];
-//    [alert show];
 }
 
 - (void)didReceiveMemoryWarning
@@ -117,6 +100,8 @@
 }
 */
 
+
+
 #pragma mark UIWebDelegate implementation
 
 - (void)webViewDidFinishLoad:(UIWebView*)theWebView
@@ -133,7 +118,7 @@
     
     [theWebView addSubview:translucentView];
     
-
+    
     return [super webViewDidFinishLoad:theWebView];
 }
 
@@ -172,17 +157,7 @@
     return [super getCommandInstance:className];
 }
 
-/*
-   NOTE: this will only inspect execute calls coming explicitly from native plugins,
-   not the commandQueue (from JavaScript). To see execute calls from JavaScript, see
-   MainCommandQueue below
-*/
-- (BOOL)execute:(CDVInvokedUrlCommand*)command
-{
-    return [super execute:command];
-}
-
-- (NSString*)pathForResource:(NSString*)resourcepath;
+- (NSString*)pathForResource:(NSString*)resourcepath
 {
     return [super pathForResource:resourcepath];
 }

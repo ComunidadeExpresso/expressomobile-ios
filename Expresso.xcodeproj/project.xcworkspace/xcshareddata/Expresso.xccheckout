@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5F8E7F7F-1F6E-48DA-A68C-FBB03C5547B4</string>
+	<string>9FA0242E-AB3F-4D8B-A9AE-9D02C8835341</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Expresso</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -22,7 +22,7 @@
 		<key>C4FFA2963977A361758FE37F34A501E873371939</key>
 		<string>../..</string>
 		<key>D2BF8F1CB714168C86A1F406FAD67EBCC0B86E87</key>
-		<string>../..www</string>
+		<string>../../../expressomobile-www</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ComunidadeExpresso/expressomobile-ios.git</string>
@@ -46,7 +46,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>D2BF8F1CB714168C86A1F406FAD67EBCC0B86E87</string>
 			<key>IDESourceControlWCCName</key>
-			<string>expressomobile-ioswww</string>
+			<string>expressomobile-www</string>
 		</dict>
 	</array>
 </dict>

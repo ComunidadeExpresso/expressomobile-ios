@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.helloCordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="Expresso" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="ExternalFileUtil">
+        <param name="ios-package" value="CDVExternalFileUtil" />
+    </feature>
     <name>Expresso</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -8,28 +30,9 @@
         Apache Cordova Team
     </author>
     <content src="index_ios.html" />
-    <feature name="LocalStorage">
-        <param name="ios-package" value="CDVLocalStorage" />
-    </feature>
-    <feature name="ExternalFileUtil">
-        <param name="ios-package" value="CDVExternalFileUtil" />
-    </feature>
+    <access origin="*" />
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
-    <access origin="*" />
-    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
-    <preference name="SuppressesIncrementalRendering" value="false" />
-    <preference name="UIWebViewBounce" value="false" />
-    <preference name="TopActivityIndicator" value="gray" />
-    <preference name="EnableLocation" value="false" />
-    <preference name="EnableViewportScale" value="false" />
-    <preference name="AutoHideSplashScreen" value="false" />
-    <preference name="ShowSplashScreenSpinner" value="true" />
-    <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
-    <preference name="BackupWebStorage" value="cloud" />
-    <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="false" />
+    <preference name="CameraUsesGeolocation" value="false" />
 </widget>
